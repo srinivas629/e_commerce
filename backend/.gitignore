@@ -1,2 +1,2 @@
-####DONENV######
-.env
+**/.env
+**/node_modules
