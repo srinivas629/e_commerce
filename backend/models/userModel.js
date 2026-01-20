@@ -7,9 +7,8 @@ const userSchema = new mongoose.Schema(
     password: { type: String, required: true },
     cardData: { type: Object, default: {} },
   },
-  { minimize: false }
+  { minimize: false },
 );
 
-const userModel = mongoose.model.user || mongoose.model('user', userSchema);
-
-
+const userModel = mongoose.models.user || mongoose.model("user", userSchema);
+export default userModel;
