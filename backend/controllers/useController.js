@@ -86,4 +86,9 @@ const adminLogin = async (req, res) => {
   // { this code is for new future in this login this login page backend server }
 };
 
+//dummy Login API
+const addLogin = async (req, res) => {
+  // { this code is for new future in this login this login page backend server }
+};
+
 export { loginUser, registerUser, adminLogin };
